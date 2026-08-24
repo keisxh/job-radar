@@ -1020,6 +1020,8 @@
 "linkedin:4455885822": "2026-08-24T15:51:36+00:00",
 "linkedin:4455889044": "2026-08-24T11:59:02+00:00",
 "linkedin:4455892362": "2026-08-24T14:51:41+00:00",
+"linkedin:4455895523": "2026-08-24T17:11:41+00:00",
+"linkedin:4455898448": "2026-08-24T17:11:41+00:00",
 "linkedin:4456000831": "2026-08-20T19:20:55",
 "linkedin:4456005152": "2026-08-20T15:53:38",
 "linkedin:4456013005": "2026-08-20T19:20:55",
@@ -1092,6 +1094,8 @@
 "linkedin:4456494640": "2026-08-20T19:20:55",
 "linkedin:4456498489": "2026-08-20T15:53:38",
 "linkedin:4456499629": "2026-08-20T15:53:38",
+"linkedin:4456507354": "2026-08-24T17:11:41+00:00",
+"linkedin:4456510328": "2026-08-24T17:11:41+00:00",
 "linkedin:4456633874": "2026-08-22T13:53:58+00:00",
 "linkedin:4456643994": "2026-08-22T13:53:58+00:00",
 "linkedin:4456703025": "2026-08-20T17:11:19",
@@ -1426,6 +1430,7 @@
 "senior assigned support engineer emea|gitlab": "2026-08-20T18:42:22",
 "senior automation engineer|arya ai karar zekasi platformu": "2026-08-20T19:20:55",
 "senior backend engineer go tenant scale gitaly|gitlab": "2026-08-20T15:53:38",
+"senior backend engineer node js aws|deel": "2026-08-24T17:11:41+00:00",
 "senior backend engineer platform integrations monetization|gitlab": "2026-08-20T15:53:38",
 "senior backend engineer python agent developer flow components|gitlab": "2026-08-20T15:53:38",
 "senior backend engineer python django|jobgether": "2026-08-24T09:27:21+00:00",
@@ -1561,6 +1566,7 @@
 "senior specialist software analysis and test management|zes": "2026-08-22T10:50:57+00:00",
 "senior support engineer|gitlab": "2026-08-20T15:53:38",
 "senior system engineer|iyzico": "2026-08-24T07:39:34+00:00",
+"senior team lead ai engineering|deel": "2026-08-24T17:11:41+00:00",
 "senior territory account executive south china|cloudflare": "2026-08-20T15:53:38",
 "senior territory account executive taiwan|cloudflare": "2026-08-21T10:13:38",
 "seo manager|hubx": "2026-08-22T11:23:07+00:00",
@@ -1632,8 +1638,10 @@
 "staff backend engineer monitoring and anomaly detection monetization|gitlab": "2026-08-20T15:53:38",
 "staff engineer frontend account experience|primer": "2026-08-21T09:39:28",
 "staff engineer rf product applications|analog devices": "2026-08-22T19:05:34+00:00",
+"staff engineer|deel": "2026-08-24T17:11:41+00:00",
 "staff frontend engineer typescript react|sentinelone": "2026-08-21T13:48:14",
 "staff full stack engineer|pivotal health": "2026-08-20T19:20:55",
+"staff product manager deel it|deel": "2026-08-24T17:11:41+00:00",
 "staff software engineer frontend trading|phantom": "2026-08-20T19:20:55",
 "staff software engineer|ping identity": "2026-08-21T02:46:59",
 "staff systems engineer it|gitlab": "2026-08-20T15:53:38",
@@ -1724,5 +1732,5 @@
 "yonetici asistani|umay group": "2026-08-24T11:31:59+00:00",
 "|cdkeysell com": "2026-08-24T13:54:07+00:00"
 },
-"updated_at": "2026-08-24T17:01:42+00:00"
+"updated_at": "2026-08-24T17:11:41+00:00"
 }

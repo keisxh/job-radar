@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.html
+.DS_Store
+.idea/
+.vscode/
+
+# Ledger lives on the radar-state branch, not on main.
+data/

@@ -1,0 +1,218 @@
+# =============================================================================
+#  YOUR SETTINGS -- everything you are likely to change lives in this block.
+#  The sections further down rarely need touching.
+# =============================================================================
+
+profile:
+  # Which parts of the world to search. Flip `global` to true when you want
+  # jobs abroad; the queries tagged global are skipped entirely while it is
+  # false, so they cost no requests either.
+  scopes:
+    turkey: true
+    global: false
+
+  experience:
+    # Years demanded in a description are a wish, not a threshold: postings ask
+    # for five and hire someone with two. Filtering on it dropped jobs worth
+    # applying to, so it is off -- the figure still appears on the card, and
+    # the seniority call is made from the title below. Set a number to re-enable.
+    max_years: null
+
+    # Titles that announce a level above yours. Matched as whole words, so
+    # "senior" does not catch "Senior-friendly" phrasing elsewhere.
+    blocked_titles: [senior, sr, lead, staff, principal, architect, director, head, manager]
+
+  location:
+    # Where you can physically work. Remote jobs ignore this entirely; anything
+    # on-site or hybrid must be within reach. Istanbul postings very often name
+    # only the district and never the city, hence the long list.
+    # Written without Turkish diacritics because locations are folded to ASCII
+    # before matching ("Şişli" -> "sisli").
+    commutable: [
+      istanbul,
+      adalar, arnavutkoy, atasehir, avcilar, bagcilar, bahcelievler, bakirkoy,
+      basaksehir, bayrampasa, besiktas, beykoz, beylikduzu, beyoglu,
+      buyukcekmece, catalca, cekmekoy, esenler, esenyurt, eyupsultan, fatih,
+      gaziosmanpasa, gungoren, kadikoy, kagithane, kartal, kucukcekmece,
+      maltepe, pendik, sancaktepe, sariyer, silivri, sultanbeyli, sultangazi,
+      sile, sisli, tuzla, umraniye, uskudar, zeytinburnu,
+      levent, maslak, etiler, kozyatagi, altunizade, kavacik,
+    ]
+
+    # Other cities we recognise. Naming one of these means the job is out of
+    # reach. A vague location such as "Türkiye" is kept, not guessed at.
+    other_cities: [
+      ankara, izmir, bursa, antalya, kocaeli, gebze, adana, konya, mersin,
+      gaziantep, eskisehir, denizli, kayseri, samsun, trabzon, sakarya,
+      tekirdag, manisa, balikesir, aydin, mugla, malatya, erzurum, diyarbakir,
+    ]
+
+scoring:
+  # A job is notified at or above this score. Lower-scoring jobs are still
+  # archived; they simply do not buzz your phone. Raise it if you get too many.
+  notify_threshold: 4
+
+  # What the job IS. At least one of these must match before any bonus or
+  # freshness point is awarded. Matched in the title, and at half weight in the
+  # description -- postings titled "Software Engineer" often turn out to be
+  # Next.js roles once you read the body.
+  role:
+    frontend: 3
+    "front end": 3
+    fullstack: 3
+    "full stack": 3
+    react: 3
+    "react native": 2
+    "next.js": 3
+    nextjs: 3
+    javascript: 2
+    typescript: 3
+    node: 2
+    "node.js": 2
+    nestjs: 2
+    express: 1
+    "web developer": 2
+    "software engineer": 2
+    "ai engineer": 3
+    "ai developer": 3
+    "ai agent": 3
+    "yapay zeka": 3
+    llm: 3
+    "generative ai": 3
+    genai: 3
+    "prompt engineer": 3
+    "machine learning": 2
+
+  # Refinements. Only counted once a role term has already matched, so a job is
+  # never notified purely for being remote.
+  bonus:
+    rag: 2
+    langchain: 2
+    embedding: 2
+    embeddings: 2
+    "vector database": 2
+    anthropic: 2
+    claude: 2
+    openai: 2
+    gemini: 1
+    gpt: 1
+    remote: 4
+    uzaktan: 4
+    hybrid: 1
+    tailwind: 1
+    graphql: 1
+    "junior": 3
+    "entry level": 3
+
+  # Counts against a job but can be outweighed by a strong match.
+  negative:
+    android: -3
+    ios: -3
+    devops: -3
+    qa: -4
+    tester: -4
+    "test engineer": -4
+    spring: -3
+
+  # Disqualifying. Unlike a negative weight, a veto cannot be outscored --
+  # use it for "never show me this". Matched in the title only, never in the
+  # description, so one passing mention cannot kill a good match.
+  veto:
+    - ".net"
+    - "c#"
+    - php
+    - laravel
+    - wordpress
+    - java
+    - j2ee
+    - sales
+    - marketing
+    - recruiter
+    - intern
+    - stajyer
+
+  # Tie-breaker among relevant jobs, by age in days. Not evidence of fit, so it
+  # only applies once a role term has matched.
+  freshness:
+    0: 3
+    1: 1
+
+# =============================================================================
+#  MACHINERY -- sources, budgets and delivery. Rarely needs editing.
+# =============================================================================
+
+run:
+  # Hard ceiling on HTTP requests per run. LinkedIn throttles a single IP after
+  # roughly ten rapid pages, so this stays well under that.
+  max_requests: 120
+  # Random delay between requests, in seconds.
+  delay_range: [1.5, 4.0]
+  timeout: 15
+  # Stay silent for this long after the ledger is created. LinkedIn returns a
+  # different slice of its backlog on every call, so the first day of runs keeps
+  # turning up older postings that are new only to the ledger.
+  warmup_hours: 24
+  # Reading a job's full description costs one extra request, so only promising
+  # jobs are enriched, and no more than this many per run.
+  max_enrich_per_run: 25
+
+sources:
+  linkedin:
+    enabled: true
+    # The endpoint serves 10 results per page and dries up past 40. Two pages
+    # per query is enough now that runs are frequent: sortBy=DD puts the newest
+    # first, and running every 10 minutes means less ground to cover each time.
+    pages_per_query: 2
+    # 24h lookback. Deduplication removes repeats, so the wide window simply
+    # covers any scheduled run that GitHub delayed or skipped.
+    time_filter: r86400
+
+    queries:
+      - { scope: turkey, label: "TR/frontend",   keywords: "frontend developer",   geo_id: 102105699 }
+      - { scope: turkey, label: "TR/front-end",  keywords: "front end developer",  geo_id: 102105699 }
+      - { scope: turkey, label: "TR/fullstack",  keywords: "fullstack developer",  geo_id: 102105699 }
+      - { scope: turkey, label: "TR/full-stack", keywords: "full stack developer", geo_id: 102105699 }
+      - { scope: turkey, label: "TR/react",      keywords: "react developer",      geo_id: 102105699 }
+      - { scope: turkey, label: "TR/next",       keywords: "next.js developer",    geo_id: 102105699 }
+      - { scope: turkey, label: "TR/swe",        keywords: "software engineer",    geo_id: 102105699 }
+      - { scope: turkey, label: "TR/ai",         keywords: "ai engineer",          geo_id: 102105699 }
+      - { scope: turkey, label: "TR/llm",        keywords: "llm engineer",         geo_id: 102105699 }
+      - { scope: turkey, label: "TR/aidev",      keywords: "ai developer",         geo_id: 102105699 }
+      - { scope: turkey, label: "TR/genai",      keywords: "generative ai",        geo_id: 102105699 }
+
+      # geo_id 92000000 is LinkedIn's worldwide scope. f_WT (the remote filter)
+      # is deliberately absent: the guest endpoint accepts it but ignores it, so
+      # remote is detected from the posting text instead.
+      - { scope: global, label: "GL/frontend",   keywords: "frontend developer remote",  geo_id: 92000000 }
+      - { scope: global, label: "GL/fullstack",  keywords: "fullstack developer remote", geo_id: 92000000 }
+      - { scope: global, label: "GL/react",      keywords: "react developer remote",     geo_id: 92000000 }
+
+  # Public ATS boards. These are documented, unauthenticated JSON endpoints that
+  # companies use to embed openings on their own sites -- not scraping. They
+  # list a role one to three days before LinkedIn's crawler indexes it.
+  #
+  # To add a company, find its board URL: jobs.lever.co/<slug>,
+  # boards.greenhouse.io/<slug>, or jobs.ashbyhq.com/<slug>.
+  ats:
+    enabled: true
+    # These boards return their whole catalogue, including years-old postings.
+    max_age_days: 7
+
+    companies:
+      - { scope: turkey, board: lever,      slug: dreamgames }
+      - { scope: turkey, board: lever,      slug: picus }
+
+      - { scope: global, board: greenhouse, slug: vercel }
+      - { scope: global, board: greenhouse, slug: gitlab }
+      - { scope: global, board: greenhouse, slug: cloudflare }
+      - { scope: global, board: greenhouse, slug: figma }
+      - { scope: global, board: greenhouse, slug: doximity }
+      - { scope: global, board: ashby,      slug: linear }
+      - { scope: global, board: ashby,      slug: supabase }
+      - { scope: global, board: ashby,      slug: posthog }
+
+telegram:
+  # Credentials come from the environment (TELEGRAM_BOT_TOKEN /
+  # TELEGRAM_CHAT_ID), never from this file.
+  enabled: true
+  max_notifications_per_run: 15

@@ -83,6 +83,7 @@
 "barista|ciao matcha bar": "2026-08-23T14:41:59+00:00",
 "bayan sekreterya elamani sekreter|martut kimya": "2026-08-22T14:50:07+00:00",
 "bellboy|yali group": "2026-08-24T10:56:58+00:00",
+"big data developer|defacto": "2026-08-25T08:41:39+00:00",
 "bilgi teknolojileri stajyeri|sca social": "2026-08-20T17:11:19",
 "bilisim ogretmeni|robokampus": "2026-08-22T09:28:50+00:00",
 "bolge satis uzmani|cnr app yazilim teknolojileri": "2026-08-24T03:56:40+00:00",
@@ -420,6 +421,7 @@
 "greenhouse:vercel:6144467004": "2026-08-20T15:53:38",
 "greenhouse:vercel:6147956004": "2026-08-20T15:53:38",
 "greenhouse:vercel:6149334004": "2026-08-21T15:04:22",
+"hayat emeklilik ve saglik yazilim uzmani|axa turkiye": "2026-08-25T08:41:39+00:00",
 "hazine is ve surec gelistirme bolum muduru|denizbank": "2026-08-23T15:37:50+00:00",
 "head of product|wyser": "2026-08-22T09:28:50+00:00",
 "hizmetli|bostanli cozum kurs": "2026-08-23T18:41:06+00:00",
@@ -518,6 +520,7 @@
 "linkedin:4410589970": "2026-08-21T07:02:12",
 "linkedin:4411622474": "2026-08-24T11:59:02+00:00",
 "linkedin:4412241075": "2026-08-23T09:05:46+00:00",
+"linkedin:4412724664": "2026-08-25T08:41:39+00:00",
 "linkedin:4415212635": "2026-08-23T14:41:59+00:00",
 "linkedin:4417899577": "2026-08-21T13:48:14",
 "linkedin:4419027266": "2026-08-23T15:59:55+00:00",
@@ -1121,8 +1124,10 @@
 "linkedin:4456577828": "2026-08-25T07:46:48+00:00",
 "linkedin:4456581631": "2026-08-25T06:51:36+00:00",
 "linkedin:4456584799": "2026-08-25T07:46:48+00:00",
+"linkedin:4456584886": "2026-08-25T08:41:39+00:00",
 "linkedin:4456587482": "2026-08-25T06:21:41+00:00",
 "linkedin:4456591182": "2026-08-25T05:11:32+00:00",
+"linkedin:4456592552": "2026-08-25T08:41:39+00:00",
 "linkedin:4456633874": "2026-08-22T13:53:58+00:00",
 "linkedin:4456643994": "2026-08-22T13:53:58+00:00",
 "linkedin:4456703025": "2026-08-20T17:11:19",
@@ -1652,6 +1657,7 @@
 "software engineer north for finance|cohere": "2026-08-20T19:20:55",
 "software engineer product|forcepull": "2026-08-20T19:57:31",
 "software engineer|appfire": "2026-08-21T11:29:11",
+"software engineer|bitpace": "2026-08-25T08:41:39+00:00",
 "software engineer|cloudflare": "2026-08-20T15:53:38",
 "software engineer|conquer ai": "2026-08-20T15:53:38",
 "software engineer|invent ai": "2026-08-21T15:04:22",
@@ -1786,5 +1792,5 @@
 "yonetici asistani|umay group": "2026-08-24T11:31:59+00:00",
 "|cdkeysell com": "2026-08-24T13:54:07+00:00"
 },
-"updated_at": "2026-08-25T08:31:44+00:00"
+"updated_at": "2026-08-25T08:41:39+00:00"
 }

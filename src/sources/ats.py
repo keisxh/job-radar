@@ -28,6 +28,14 @@ _WS = re.compile(r"\s+")
 
 _REMOTE_HINTS = ("remote", "anywhere", "distributed")
 
+# Some Lever boards are configured with the commitment in the location field
+# ("Full-time" where a city belongs). Treating that as a place would send the
+# job through the location filter as an unrecognised one, i.e. abroad, so it is
+# read as no location at all -- which the filter keeps rather than guesses at.
+_NON_LOCATIONS = {
+    "full-time", "part-time", "contract", "temporary", "internship", "freelance",
+}
+
 
 def _plain(raw: str | None, limit: int = 600) -> str:
     """Flatten an HTML description into trimmed plain text for the archive."""
@@ -91,7 +99,9 @@ def fetch_lever(fetcher: Fetcher, slug: str) -> list[Job]:
     jobs = []
     for item in payload:
         categories = item.get("categories") or {}
-        location = categories.get("location", "")
+        location = categories.get("location", "") or ""
+        if location.strip().lower() in _NON_LOCATIONS:
+            location = ""
         workplace = item.get("workplaceType", "")
         title = item.get("text", "").strip()
         jobs.append(

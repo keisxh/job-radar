@@ -10,3 +10,6 @@ venv/
 
 # Ledger lives on the radar-state branch, not on main.
 data/
+
+# Wrangler writes account details here, including an email address.
+.wrangler/

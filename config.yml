@@ -199,8 +199,18 @@ sources:
     max_age_days: 7
 
     companies:
+      # Each of these was verified to serve live postings located in Turkey.
+      # Boards that merely resolve are not enough: greenhouse/insider is
+      # Business Insider, greenhouse/peak is a clinic in Texas, and
+      # greenhouse/udemy lists Dublin -- none of them belong here.
       - { scope: turkey, board: lever,      slug: dreamgames }
       - { scope: turkey, board: lever,      slug: picus }
+      - { scope: turkey, board: lever,      slug: trendyol }
+      - { scope: turkey, board: lever,      slug: iyzico }
+      - { scope: turkey, board: lever,      slug: commencis }
+      - { scope: turkey, board: lever,      slug: peakgames }
+      - { scope: turkey, board: greenhouse, slug: goodjobgames }
+      - { scope: turkey, board: ashby,      slug: biggergames }
 
       - { scope: global, board: greenhouse, slug: vercel }
       - { scope: global, board: greenhouse, slug: gitlab }

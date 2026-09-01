@@ -546,6 +546,7 @@
 "full stack java developer|obss": "2026-08-28T10:41:58+00:00",
 "full stack lead trading platform|edari": "2026-08-25T09:31:42+00:00",
 "full stack product developer|profesyonel muhendislik hizmetleri": "2026-08-29T15:41:59+00:00",
+"full stack software designer|alstom": "2026-09-01T13:11:56+00:00",
 "full stack software engineer ai finance agent|bjak": "2026-08-21T05:18:06",
 "full stack software engineer control plane|clickhouse": "2026-08-20T20:34:09",
 "full stack software engineer journey|ecosia": "2026-08-21T15:04:22",
@@ -850,6 +851,7 @@
 "linkedin:4317460401": "2026-08-20T19:20:55",
 "linkedin:4318543704": "2026-08-21T15:15:59+00:00",
 "linkedin:4323946645": "2026-08-31T14:11:57+00:00",
+"linkedin:4324487133": "2026-09-01T13:11:56+00:00",
 "linkedin:4324535211": "2026-08-31T19:31:53+00:00",
 "linkedin:4330096919": "2026-08-31T05:21:51+00:00",
 "linkedin:4335463612": "2026-09-01T11:51:58+00:00",
@@ -2214,7 +2216,9 @@
 "linkedin:4459509209": "2026-09-01T11:01:59+00:00",
 "linkedin:4459510356": "2026-09-01T11:01:59+00:00",
 "linkedin:4459512403": "2026-09-01T11:41:55+00:00",
+"linkedin:4459514788": "2026-09-01T13:11:56+00:00",
 "linkedin:4459515388": "2026-09-01T11:41:55+00:00",
+"linkedin:4459519645": "2026-09-01T13:11:56+00:00",
 "linkedin:4459524113": "2026-09-01T13:02:09+00:00",
 "linkedin:4459611494": "2026-08-26T23:41:55+00:00",
 "linkedin:4459621982": "2026-08-27T01:31:58+00:00",
@@ -2529,6 +2533,7 @@
 "product design engineer|tellos": "2026-08-21T15:04:22",
 "product designer design systems|figma": "2026-08-20T15:53:38",
 "product designer|moneypay": "2026-08-31T08:11:53+00:00",
+"product designer|revolut": "2026-09-01T13:11:56+00:00",
 "product engineer|digital waffle": "2026-08-21T15:15:59+00:00",
 "product lead new games|crazylabs": "2026-08-29T06:51:40+00:00",
 "product lead|boyner buyuk magazacilik a s": "2026-08-27T07:31:52+00:00",
@@ -2820,6 +2825,7 @@
 "senior full stack engineer|simplestudy": "2026-08-20T20:34:09",
 "senior full stack mobile developer|jetlogi": "2026-08-25T12:41:35+00:00",
 "senior full stack product engineer|spellzee": "2026-08-20T19:20:55",
+"senior full stack software designer|alstom": "2026-09-01T13:11:56+00:00",
 "senior full stack software engineer platform and dialog banking application development|yapi kredi teknoloji": "2026-08-24T10:56:58+00:00",
 "senior full stack software engineer|life line screening": "2026-08-20T19:20:55",
 "senior fullstack developer pimcore symfony react|proxify": "2026-08-21T15:15:59+00:00",
@@ -3268,5 +3274,5 @@
 "|cdkeysell com": "2026-08-24T13:54:07+00:00",
 "|syntronic a global design house": "2026-08-27T00:02:34+00:00"
 },
-"updated_at": "2026-09-01T13:02:09+00:00"
+"updated_at": "2026-09-01T13:11:56+00:00"
 }

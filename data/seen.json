@@ -227,6 +227,7 @@
 "ashby:supabase:f8fc6aae-d2b4-456a-97db-012a1970c398": "2026-08-20T15:53:38",
 "asistan|gritko": "2026-09-06T14:07:33+00:00",
 "assembler|abb": "2026-08-31T04:51:50+00:00",
+"asset performance and modelling engineer|gama enerji": "2026-09-22T12:12:06+00:00",
 "assistant cra fsp turkiye|thermo fisher scientific": "2026-08-22T14:50:07+00:00",
 "assistant warehouse and distribution manager|unilever": "2026-08-23T15:59:55+00:00",
 "assistant|bostani": "2026-08-27T22:11:56+00:00",
@@ -1540,6 +1541,7 @@
 "kurumsal iletisim uzmani|mdp group": "2026-09-01T14:12:13+00:00",
 "kurumsal iletisim ve dijital medya uzmani|tilera ai": "2026-08-28T14:41:53+00:00",
 "kurumsal musteri satis yoneticisi|norbisai": "2026-09-22T07:52:01+00:00",
+"kurumsal satis yoneticisi|ankadx": "2026-09-22T12:12:06+00:00",
 "kurumsal teknoloji satis yoneticisi ai enterprise solutions|ankadx": "2026-09-04T14:42:09+00:00",
 "kurumsal teknoloji satis yoneticisi ai enterprise solutions|smartpro teknoloji": "2026-09-04T14:42:09+00:00",
 "kurumsal teknoloji satis yoneticisi|ankadx": "2026-09-07T14:03:04+00:00",
@@ -4731,12 +4733,15 @@
 "linkedin:4468562055": "2026-09-22T09:11:58+00:00",
 "linkedin:4468566047": "2026-09-22T09:41:59+00:00",
 "linkedin:4468574479": "2026-09-22T11:11:59+00:00",
+"linkedin:4468575649": "2026-09-22T12:12:06+00:00",
 "linkedin:4468576018": "2026-09-22T10:32:14+00:00",
 "linkedin:4468576220": "2026-09-22T10:51:57+00:00",
 "linkedin:4468577563": "2026-09-22T11:52:04+00:00",
 "linkedin:4468580242": "2026-09-22T11:11:59+00:00",
+"linkedin:4468582463": "2026-09-22T12:12:06+00:00",
 "linkedin:4468584348": "2026-09-22T11:52:04+00:00",
 "linkedin:4468590160": "2026-09-22T11:11:59+00:00",
+"linkedin:4468591402": "2026-09-22T12:12:06+00:00",
 "linkedin:4468636702": "2026-09-17T16:21:50+00:00",
 "linkedin:4468637495": "2026-09-17T14:32:05+00:00",
 "linkedin:4468647779": "2026-09-17T14:32:05+00:00",
@@ -5568,6 +5573,7 @@
 "senior data architect|birikimtek bilisim cozumleri": "2026-09-11T08:41:53+00:00",
 "senior data engineer ai|epam systems": "2026-08-24T09:27:21+00:00",
 "senior data engineer azure|proxify": "2026-09-01T11:51:58+00:00",
+"senior data engineer dwh developer|icterra bilgi ve iletisim teknolojileri": "2026-09-22T12:12:06+00:00",
 "senior data engineer with terraform|epam systems": "2026-08-30T03:21:56+00:00",
 "senior data engineer|accenture": "2026-09-07T22:52:52+00:00",
 "senior data engineer|bitaksi": "2026-09-11T08:41:53+00:00",
@@ -6622,5 +6628,5 @@
 "|syntronic a global design house": "2026-08-27T00:02:34+00:00",
 "|tirgpt": "2026-09-19T02:51:52+00:00"
 },
-"updated_at": "2026-09-22T12:01:55+00:00"
+"updated_at": "2026-09-22T12:12:06+00:00"
 }

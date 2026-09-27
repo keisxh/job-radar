@@ -82,6 +82,12 @@ scoring:
     genai: 3
     "prompt engineer": 3
     "machine learning": 2
+    # Forward deployed engineering, and the names the same job is posted under.
+    # Hyphens fold to spaces, so "Forward-Deployed" matches too.
+    "forward deployed": 3
+    fde: 3
+    "solutions engineer": 2
+    "product engineer": 2
 
   # Refinements. Only counted once a role term has already matched, so a job is
   # never notified purely for being remote.
@@ -179,6 +185,9 @@ sources:
       - { scope: turkey, label: "TR/llm",        keywords: "llm engineer",         geo_id: 102105699 }
       - { scope: turkey, label: "TR/aidev",      keywords: "ai developer",         geo_id: 102105699 }
       - { scope: turkey, label: "TR/genai",      keywords: "generative ai",        geo_id: 102105699 }
+      # "forward deployed engineer" rather than "forward deployed": the shorter
+      # phrase also returned Bosch field support and medical sales roles.
+      - { scope: turkey, label: "TR/fde",        keywords: "forward deployed engineer", geo_id: 102105699 }
 
       # geo_id 92000000 is LinkedIn's worldwide scope. f_WT (the remote filter)
       # is deliberately absent: the guest endpoint accepts it but ignores it, so

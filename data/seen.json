@@ -117,6 +117,7 @@
 "ai gorsel uzmani|explosion turkey": "2026-09-07T14:03:04+00:00",
 "ai governance consultant|yapi kredi teknoloji": "2026-09-14T06:41:45+00:00",
 "ai gtm business development associate|dreamland gayrimenkul yatirim ve ticaret": "2026-09-15T21:52:09+00:00",
+"ai harness engineer|jobgether": "2026-09-28T10:12:09+00:00",
 "ai health technologies associate|kernio analytics": "2026-09-15T13:12:34+00:00",
 "ai hub yapay zeka cozum danismani mimari|akbank": "2026-08-28T11:21:58+00:00",
 "ai image specialist on site in dubai|puffy": "2026-08-27T16:21:48+00:00",
@@ -1391,6 +1392,7 @@
 "gtm|wonderful": "2026-08-30T20:11:55+00:00",
 "gudum ve seyrusefer sistemleri yazilim muhendisi|aselsan": "2026-09-18T09:41:50+00:00",
 "guvenli kod gelistirme uzmani|uludag enerji": "2026-09-23T09:02:11+00:00",
+"harita muhendisi|paksoy teknik hizmetler": "2026-09-28T10:12:09+00:00",
 "hasta temsilcisi|dr emre turkmen clinic": "2026-09-06T10:41:58+00:00",
 "hayat emeklilik ve saglik yazilim uzmani|axa turkiye": "2026-08-25T08:41:39+00:00",
 "hazine is ve surec gelistirme bolum muduru|denizbank": "2026-08-23T15:37:50+00:00",
@@ -5194,6 +5196,8 @@
 "linkedin:4470844437": "2026-09-28T07:32:10+00:00",
 "linkedin:4470845524": "2026-09-28T08:42:06+00:00",
 "linkedin:4470846099": "2026-09-28T08:42:06+00:00",
+"linkedin:4470847341": "2026-09-28T10:12:09+00:00",
+"linkedin:4470847682": "2026-09-28T10:12:09+00:00",
 "linkedin:4470849418": "2026-09-28T09:32:12+00:00",
 "linkedin:4470850131": "2026-09-28T08:02:26+00:00",
 "linkedin:4470916997": "2026-09-23T12:00:03+00:00",
@@ -5221,6 +5225,7 @@
 "linkedin:4471333504": "2026-09-28T07:32:10+00:00",
 "linkedin:4471333685": "2026-09-28T08:42:06+00:00",
 "linkedin:4471344058": "2026-09-28T08:02:26+00:00",
+"linkedin:4471352163": "2026-09-28T10:12:09+00:00",
 "linkedin:4471421852": "2026-09-24T09:21:58+00:00",
 "linkedin:4471426870": "2026-09-25T05:51:58+00:00",
 "linkedin:4471435319": "2026-09-24T09:12:12+00:00",
@@ -5263,6 +5268,7 @@
 "linkedin:4472488515": "2026-09-28T07:51:58+00:00",
 "linkedin:4472489189": "2026-09-28T05:02:19+00:00",
 "linkedin:4472705560": "2026-09-28T09:52:13+00:00",
+"linkedin:4472705658": "2026-09-28T10:12:09+00:00",
 "locum tenens recruiter|doximity": "2026-08-20T15:53:38",
 "logo crm logo j hr uzmani|agonix teknoloji ve danismanlik": "2026-09-09T11:52:56+00:00",
 "long term software engineering intern frontend heavy 3 6 months|makrops": "2026-08-27T19:11:54+00:00",
@@ -6594,6 +6600,7 @@
 "software developer|mad parfumeur": "2026-09-01T07:12:07+00:00",
 "software developer|obilet": "2026-08-20T15:53:38",
 "software developer|tnm hr consulting": "2026-09-21T23:12:00+00:00",
+"software developer|turkcell": "2026-09-28T10:12:09+00:00",
 "software development engineer c|siemens": "2026-09-01T10:22:19+00:00",
 "software development engineer in test sdet|accenture": "2026-09-05T14:01:46+00:00",
 "software development engineer industrial networks and security|siemens": "2026-09-23T17:22:05+00:00",
@@ -7114,6 +7121,7 @@
 "yapay zeka muhendisi ai engineer kidemli uzman mimar|dunya katilim": "2026-09-24T08:32:02+00:00",
 "yapay zeka muhendisi ai engineer|octapull": "2026-09-15T19:12:09+00:00",
 "yapay zeka muhendisi computer vision ocr rag|fabrikod": "2026-08-31T07:32:00+00:00",
+"yapay zeka muhendisi|gizli": "2026-09-28T10:12:09+00:00",
 "yapay zeka muhendisi|hep birlikte developer": "2026-09-24T16:32:50+00:00",
 "yapay zeka muhendisi|icterra bilgi ve iletisim teknolojileri": "2026-08-31T12:11:56+00:00",
 "yapay zeka muhendisi|monster notebook": "2026-08-26T07:27:23+00:00",
@@ -7264,5 +7272,5 @@
 "|syntronic a global design house": "2026-08-27T00:02:34+00:00",
 "|tirgpt": "2026-09-19T02:51:52+00:00"
 },
-"updated_at": "2026-09-28T10:01:58+00:00"
+"updated_at": "2026-09-28T10:12:09+00:00"
 }

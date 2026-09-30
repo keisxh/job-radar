@@ -1555,6 +1555,7 @@
 "is analisti|turkiye finans": "2026-09-16T07:21:00+00:00",
 "is gelistirici kabin operasyonlari kaynakhane|turktraktor": "2026-09-07T08:32:23+00:00",
 "is gelistirme direktoru|harman app": "2026-09-06T13:51:50+00:00",
+"is gelistirme muduru|recroai": "2026-09-30T18:12:00+00:00",
 "is gelistirme ve buyume yoneticisi|cremicro": "2026-08-23T01:25:39+00:00",
 "is gelistirme ve satis yoneticisi|assessment systems turkey": "2026-08-31T15:31:57+00:00",
 "is gelistirme ve yapay zeka uzmani|inanc bant": "2026-09-08T13:13:06+00:00",
@@ -4532,6 +4533,7 @@
 "linkedin:4465040506": "2026-09-09T13:03:20+00:00",
 "linkedin:4465044032": "2026-09-09T11:32:47+00:00",
 "linkedin:4465047921": "2026-09-09T14:13:00+00:00",
+"linkedin:4465049213": "2026-09-30T18:12:00+00:00",
 "linkedin:4465064837": "2026-09-09T15:42:12+00:00",
 "linkedin:4465076159": "2026-09-09T14:13:00+00:00",
 "linkedin:4465101398": "2026-09-12T15:41:56+00:00",
@@ -5456,11 +5458,13 @@
 "linkedin:4472291244": "2026-09-26T23:11:51+00:00",
 "linkedin:4472300466": "2026-09-30T13:22:14+00:00",
 "linkedin:4472313856": "2026-09-30T16:32:13+00:00",
+"linkedin:4472343037": "2026-09-30T18:12:00+00:00",
 "linkedin:4472429427": "2026-09-27T04:51:58+00:00",
 "linkedin:4472430641": "2026-09-27T07:11:53+00:00",
 "linkedin:4472442642": "2026-09-27T20:02:14+00:00",
 "linkedin:4472488515": "2026-09-28T07:51:58+00:00",
 "linkedin:4472489189": "2026-09-28T05:02:19+00:00",
+"linkedin:4472632100": "2026-09-30T18:12:00+00:00",
 "linkedin:4472705560": "2026-09-28T09:52:13+00:00",
 "linkedin:4472705658": "2026-09-28T10:12:09+00:00",
 "linkedin:4472706425": "2026-09-28T10:41:59+00:00",
@@ -6987,6 +6991,7 @@
 "software engineer|virtuagym": "2026-09-15T07:52:13+00:00",
 "software engineer|virtustant": "2026-09-19T04:11:49+00:00",
 "software functional testing specialization|epam systems": "2026-08-29T16:11:51+00:00",
+"software installation engineer|siemens healthineers": "2026-09-30T18:12:00+00:00",
 "software process engineer aspice|man turkiye a s": "2026-09-07T08:02:35+00:00",
 "software product application manager medtech|zenith hr": "2026-09-14T07:02:22+00:00",
 "software product design engineer product owner|p i works inc": "2026-08-23T15:59:55+00:00",
@@ -7022,6 +7027,7 @@
 "solutions analyst ii|jpmorganchase": "2026-09-05T08:41:53+00:00",
 "solutions architect assistant|elite hr consultancy": "2026-08-26T07:27:23+00:00",
 "solutions architect cloud ai arabic speaking|sailglobal": "2026-08-26T07:51:31+00:00",
+"solutions architect cs menat|amazon web services aws": "2026-09-30T18:12:00+00:00",
 "solutions architect digital engagement practice|epam systems": "2026-08-31T03:22:07+00:00",
 "solutions engineer turkey|alpaca": "2026-08-21T09:39:28",
 "solutions engineer turkey|cisco": "2026-08-24T07:39:34+00:00",
@@ -7586,5 +7592,5 @@
 "|syntronic a global design house": "2026-08-27T00:02:34+00:00",
 "|tirgpt": "2026-09-19T02:51:52+00:00"
 },
-"updated_at": "2026-09-30T18:02:09+00:00"
+"updated_at": "2026-09-30T18:12:00+00:00"
 }

@@ -598,6 +598,7 @@
 "data analyst 90 hr remote|crossing hurdles": "2026-09-05T11:32:07+00:00",
 "data analyst fraud prevention analytics|yapi kredi teknoloji": "2026-09-15T21:52:09+00:00",
 "data analyst|ace games": "2026-09-02T08:11:48+00:00",
+"data analyst|iyzico": "2026-09-30T07:51:07+00:00",
 "data analyst|miniclip": "2026-09-05T14:51:50+00:00",
 "data analytics ai intern|sanipak": "2026-09-01T06:42:02+00:00",
 "data analytics and ai factory director|digiturk": "2026-09-18T05:03:00+00:00",
@@ -1789,6 +1790,7 @@
 "lever:iyzico:a64bf888-9ebc-45bf-938d-69b48a6cb600": "2026-09-04T06:42:01+00:00",
 "lever:iyzico:a7f5faab-6955-4185-9f8f-198b9879cf88": "2026-09-09T08:22:47+00:00",
 "lever:iyzico:d24d512f-0c12-4787-9025-1285c31732d6": "2026-08-26T12:21:51+00:00",
+"lever:iyzico:fc39bbdb-64f3-4f1f-a816-dc818ac6a6bb": "2026-09-30T07:51:07+00:00",
 "lever:peakgames:25fbddf5-86fa-4f1f-8b38-450e40603082": "2026-09-15T07:02:08+00:00",
 "lever:picus:57ca498c-2a45-45fd-856c-2f1585ecf001": "2026-08-27T13:42:00+00:00",
 "lever:picus:5ff0b020-abac-4510-988e-b3d2a7d1ef5d": "2026-09-18T11:52:06+00:00",
@@ -5352,6 +5354,7 @@
 "linkedin:4471721633": "2026-09-29T13:42:17+00:00",
 "linkedin:4471724403": "2026-09-29T12:32:09+00:00",
 "linkedin:4471725973": "2026-09-29T14:32:25+00:00",
+"linkedin:4471730544": "2026-09-30T07:51:07+00:00",
 "linkedin:4471733897": "2026-09-29T15:02:11+00:00",
 "linkedin:4471735301": "2026-09-30T06:12:42+00:00",
 "linkedin:4471736030": "2026-09-29T12:32:09+00:00",
@@ -5389,6 +5392,7 @@
 "linkedin:4472117594": "2026-09-30T06:12:42+00:00",
 "linkedin:4472118477": "2026-09-30T06:52:11+00:00",
 "linkedin:4472120266": "2026-09-30T06:41:53+00:00",
+"linkedin:4472124761": "2026-09-30T07:51:07+00:00",
 "linkedin:4472132068": "2026-09-30T06:31:43+00:00",
 "linkedin:4472204878": "2026-09-26T08:32:08+00:00",
 "linkedin:4472205805": "2026-09-26T01:21:54+00:00",
@@ -6325,6 +6329,7 @@
 "senior digital marketing manager ai savvy|pexly": "2026-08-26T10:11:34+00:00",
 "senior director internal audit|gitlab": "2026-08-20T15:53:38",
 "senior django developer|proxify": "2026-08-31T13:02:15+00:00",
+"senior dotnet developer|bgts": "2026-09-30T07:51:07+00:00",
 "senior dynamics crm developer voc|epam systems": "2026-09-04T04:01:26+00:00",
 "senior embedded software design engineer|edge microwave": "2026-08-20T19:20:55",
 "senior embedded software developer c c iot|ataves santi": "2026-08-25T15:01:41+00:00",
@@ -6798,6 +6803,7 @@
 "software developer net|veripark": "2026-09-02T11:22:00+00:00",
 "software developer principal microsoft dynamics 365 crm developer|veripark": "2026-08-26T08:51:34+00:00",
 "software developer remote|crossing hurdles": "2026-08-29T12:11:51+00:00",
+"software developer|barsan global logistics": "2026-09-30T07:51:07+00:00",
 "software developer|birikimtek bilisim cozumleri": "2026-08-31T11:31:54+00:00",
 "software developer|eclit": "2026-08-24T07:39:34+00:00",
 "software developer|ericsson": "2026-08-26T17:11:56+00:00",
@@ -7496,5 +7502,5 @@
 "|syntronic a global design house": "2026-08-27T00:02:34+00:00",
 "|tirgpt": "2026-09-19T02:51:52+00:00"
 },
-"updated_at": "2026-09-30T07:41:10+00:00"
+"updated_at": "2026-09-30T07:51:07+00:00"
 }

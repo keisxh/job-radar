@@ -977,6 +977,7 @@
 "felemenkce bilen musteri temsilcisi|asistanik ise alim secme ve yerlestirme": "2026-08-24T07:39:34+00:00",
 "field application engineer ii|te connectivity": "2026-10-01T09:02:10+00:00",
 "field application engineer|delta electronics turkiye": "2026-08-22T11:23:07+00:00",
+"field application engineer|future electronics": "2026-10-02T14:12:22+00:00",
 "field application engineer|getac": "2026-09-29T08:32:12+00:00",
 "field data scientist|lc waikiki": "2026-09-29T11:02:31+00:00",
 "field engineer|hilti turkiye": "2026-09-28T13:32:18+00:00",
@@ -1776,6 +1777,7 @@
 "kidemli veri platform mimari senior data platform architect|orbislabs ai": "2026-08-24T11:31:59+00:00",
 "kidemli yapay zeka bulut yazilim muhendisi senior ai cloud software engineer python generatif ai|kornext yazilim danismanlik ve dis tic ltd sti": "2026-09-10T08:22:38+00:00",
 "kidemli yapay zeka muhendisi llm agentic systems izmir|sompo teknoloji": "2026-09-01T12:42:04+00:00",
+"kidemli yapay zeka uzmani|mega metal": "2026-10-02T14:12:22+00:00",
 "kidemli yazilim gelistirici senior full stack developer|tubitak bilgem": "2026-09-25T12:51:50+00:00",
 "kidemli yazilim gelistirici takim lideri|time food group franchise sistemleri": "2026-09-21T13:41:55+00:00",
 "kidemli yazilim gelistirme personeli|javdes sirketler toplulugu": "2026-09-30T11:51:57+00:00",
@@ -5651,6 +5653,8 @@
 "linkedin:4473139308": "2026-10-02T11:42:14+00:00",
 "linkedin:4473140284": "2026-10-02T11:42:14+00:00",
 "linkedin:4473144655": "2026-10-02T14:02:59+00:00",
+"linkedin:4473147645": "2026-10-02T14:12:22+00:00",
+"linkedin:4473148428": "2026-10-02T14:12:22+00:00",
 "linkedin:4473149020": "2026-10-02T11:42:14+00:00",
 "linkedin:4473202827": "2026-09-29T09:02:04+00:00",
 "linkedin:4473218970": "2026-09-29T11:02:31+00:00",
@@ -5699,6 +5703,7 @@
 "linkedin:4474724124": "2026-10-02T09:12:09+00:00",
 "linkedin:4474728527": "2026-10-02T11:42:14+00:00",
 "linkedin:4474731888": "2026-10-02T12:52:11+00:00",
+"linkedin:4474756566": "2026-10-02T14:12:22+00:00",
 "locum tenens recruiter|doximity": "2026-08-20T15:53:38",
 "logo crm logo j hr uzmani|agonix teknoloji ve danismanlik": "2026-09-09T11:52:56+00:00",
 "logo crm uzmani|agonix teknoloji ve danismanlik": "2026-09-30T06:52:11+00:00",
@@ -6038,6 +6043,7 @@
 "presales consultant|fit global": "2026-09-30T09:52:04+00:00",
 "presales engineer|sangfor technologies turkiye": "2026-08-31T04:01:50+00:00",
 "presales executive|vodafone": "2026-08-22T14:50:07+00:00",
+"presales manager wholesale|vodafone": "2026-10-02T14:12:22+00:00",
 "presales manager|bentego": "2026-09-09T15:22:14+00:00",
 "presales solution architect|cloud4next": "2026-08-30T08:52:09+00:00",
 "presales storage architect unstructured data|hewlett packard enterprise": "2026-09-29T23:32:25+00:00",
@@ -7862,5 +7868,5 @@
 "|syntronic a global design house": "2026-08-27T00:02:34+00:00",
 "|tirgpt": "2026-09-19T02:51:52+00:00"
 },
-"updated_at": "2026-10-02T14:05:27+00:00"
+"updated_at": "2026-10-02T14:12:22+00:00"
 }
